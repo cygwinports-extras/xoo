@@ -1,0 +1,12 @@
+NAME="xoo"
+VERSION=0.8+gitf8d3ca4
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="A graphical wrapper around Xephyr/Xnest"
+DESCRIPTION="Xoo is a graphical wrapper around Xnest or Xephyr, the nested X
+servers. You can make Xnest look like a particular device's display and set up
+buttons on that device.  This is useful for embedded developers who want to
+simulate a target device on their desktop machine."
+REQUIRES="xorg-server-extra"
+GIT_REV=${VERSION#*+git}
+inherit xorg git
