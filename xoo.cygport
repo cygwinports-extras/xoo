@@ -1,5 +1,5 @@
 NAME="xoo"
-VERSION=0.8+gitf8d3ca4
+VERSION=0.9+gitbd19f92
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="A graphical wrapper around Xephyr/Xnest"
